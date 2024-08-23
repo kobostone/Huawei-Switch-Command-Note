@@ -56,7 +56,7 @@ display lldp neighbor
 display lldp neighbor brief      
 display lldp neighbor interface XGigabitEthernet 2/2/4   
 
-and
+and     
  "display mac-address"    
  "display arp"      
  "display interface brief"    
