@@ -1,2 +1,4 @@
 # Huawei-Switch-Command-Note
-huawei switch cheat sheet
+Huawei Switch Configuration short note
+
+Contains Configuration commands: VLAN
