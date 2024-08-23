@@ -5,11 +5,10 @@ Contains Configuration commands: VLAN
 
 ### Interface Configuration ⚙️
 
-- `display interface brief`
--  display ip interface brief
-- `interface <interface>`, `description <description>`
-- `interface <interface>`, `ip address <ip-address> <subnet-mask>`
-- `interface <interface>`, `shutdown`
+-  <HUAWEI> display ip interface brief # switch IP address
+   <HUAWEI> display interface brief 
+
+
 
 
 ### Giving the switch an IP address
@@ -20,7 +19,6 @@ Contains Configuration commands: VLAN
 - display this    
 - quit     
 <Huawei>display ip interface brief	
-
 
 
 ### Assign an access Interface to VLAN ⚙️   
@@ -51,4 +49,13 @@ Assign interface GigabitEthernet 0/0/4 as a trunk interface:
 [switch1]display vlan	     
 [switch1]display vlan 10	Show all information of vlan 10     
 [switch1]display port vlan	To view types of port and VLAN configuration    
+
+## Find out the connected devices to a Huawei switch 
+ "display mac-address"    
+ "display arp"      
+ "display interface brief"    
+ "display lldp neighbor"    
+ 
+These commands will provide you with information about the MAC addresses, IP addresses, interfaces, and neighboring devices 
+connected to the switch.
 
