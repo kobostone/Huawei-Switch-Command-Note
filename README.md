@@ -6,11 +6,22 @@ Contains Configuration commands: VLAN
 ### Interface Configuration ⚙️
 
 - `display interface brief`
+-  display ip interface brief
 - `interface <interface>`, `description <description>`
 - `interface <interface>`, `ip address <ip-address> <subnet-mask>`
 - `interface <interface>`, `shutdown`
-- `interface <interface>`, `port link-type <access/trunk/hybrid>`
-- `interface <interface>`, `port default vlan <vlan-id>`
+
+
+### Giving the switch an IP address
+
+- system-view    
+- interface Vlanif 1   
+- ip address 10.1.1.1 30
+- display this    
+- quit     
+<Huawei>display ip interface brief	
+
+
 
 ### Assign an access Interface to VLAN ⚙️   
 
