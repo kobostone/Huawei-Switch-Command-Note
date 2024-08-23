@@ -9,8 +9,6 @@ Contains Configuration commands: VLAN
    <HUAWEI> display interface brief 
 
 
-
-
 ### Giving the switch an IP address
 
 - system-view    
@@ -51,11 +49,34 @@ Assign interface GigabitEthernet 0/0/4 as a trunk interface:
 [switch1]display port vlan	To view types of port and VLAN configuration    
 
 ## Find out the connected devices to a Huawei switch 
+
+#view the LLDP neighbors of the switch. This will show you information about neighboring devices that support the LLDP protocol,
+
+display lldp neighbor    
+display lldp neighbor brief      
+display lldp neighbor interface XGigabitEthernet 2/2/4   
+
+and
  "display mac-address"    
  "display arp"      
  "display interface brief"    
- "display lldp neighbor"    
+ 
+
+ 
  
 These commands will provide you with information about the MAC addresses, IP addresses, interfaces, and neighboring devices 
 connected to the switch.
+
+## Find out a mac address
+
+searching for iMAC address "0011-2233-4455":    
+display mac-address 0011-2233-4455     
+
+For example, to search for MAC addresses on interface GigabitEthernet 0/1/1,    
+display mac-address GigabitEthernet 0/1/1     
+
+You can also search for MAC addresses associated with a specific VLAN.    
+display mac-address vlan 10    
+display mac-address vlan 4 GigabitEthernet 0/1/1    
+
 
