@@ -8,7 +8,7 @@ Huawei Switch Configuration short note
 
 ### Display Interface Configuration ⚙️
 
--  <HUAWEI> display ip interface brief 
+-  <HUAWEI> display ip interface brief     
    <HUAWEI> display interface brief 
 
 
@@ -22,6 +22,10 @@ Huawei Switch Configuration short note
 - display this    
 - quit     
   display ip interface brief
+  
+![image](https://github.com/user-attachments/assets/17ea9407-2604-4627-a626-9fa6f7a06570)
+
+
 
   ## Verify VLAN Configuration   
 
