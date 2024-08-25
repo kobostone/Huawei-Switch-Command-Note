@@ -17,11 +17,6 @@ Huawei Switch Configuration short note
 <HUAWEI> system-view
 [HUAWEI] 
    
-- interface Vlanif 1   
-- ip address 10.1.1.1 30
-- display this    
-- quit     
-  display ip interface brief
   
 ![image](https://github.com/user-attachments/assets/17ea9407-2604-4627-a626-9fa6f7a06570)
 
