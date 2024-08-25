@@ -63,6 +63,7 @@ Assign interface GigabitEthernet 0/0/4 as a trunk interface:
 
 ![image](https://github.com/user-attachments/assets/437be43d-e9bc-48a3-861d-4e51e4cfb4f5)
 
+![image](https://github.com/user-attachments/assets/140a57e1-cb21-46f5-a6d6-a73f7cd5f69c)
 
 
 ## Find out the connected devices to a Huawei switch 
