@@ -1,24 +1,46 @@
 # Huawei-Switch-Command-Note
 Huawei Switch Configuration short note
 
-Contains Configuration commands: VLAN
 
-### Interface Configuration ⚙️
+![image](https://github.com/user-attachments/assets/88840a90-7369-443f-91fc-facde9774d63)
 
--  <HUAWEI> display ip interface brief # switch IP address
+
+
+### Display Interface Configuration ⚙️
+
+-  <HUAWEI> display ip interface brief 
    <HUAWEI> display interface brief 
 
 
 ### Giving the switch an IP address
 
-- system-view    
+<HUAWEI> system-view
+[HUAWEI] 
+   
 - interface Vlanif 1   
 - ip address 10.1.1.1 30
 - display this    
 - quit     
-<Huawei>display ip interface brief	
+  display ip interface brief
+
+  ## Verify VLAN Configuration   
+
+- system-view  
+[switch1]display vlan summary	      
+[switch1]display vlan	     
+[switch1]display vlan 10	   Show all information of vlan 10     
+[switch1]display port vlan	   view types of port and VLAN configuration    
+
+![image](https://github.com/user-attachments/assets/970cefb1-f2f7-4de6-af3c-0412324f42e6)
+
+![image](https://github.com/user-attachments/assets/3779a87a-ff9e-4010-9b2d-c7460b9fbfc4)
 
 
+### View VLAN ⚙️   
+
+- system-view   
+- display vlan
+- 
 ### Assign an access Interface to VLAN ⚙️   
 
 Assign interface GigabitEthernet 0/0/2 to Vlan 10
@@ -40,13 +62,9 @@ Assign interface GigabitEthernet 0/0/4 as a trunk interface:
 [switch1-GigabitEthernet0/0/4]`port trunk pvid vlan 10`    •	Set default VLAN for trunk interface.
 [switch1-GigabitEthernet0/0/4]quit
 
+![image](https://github.com/user-attachments/assets/437be43d-e9bc-48a3-861d-4e51e4cfb4f5)
 
-## Verify VLAN Configuration   
 
-[switch1]display vlan summary	      
-[switch1]display vlan	     
-[switch1]display vlan 10	Show all information of vlan 10     
-[switch1]display port vlan	To view types of port and VLAN configuration    
 
 ## Find out the connected devices to a Huawei switch 
 
@@ -89,4 +107,16 @@ You can also search for MAC addresses associated with a specific VLAN.
 display mac-address vlan 10    
 display mac-address vlan 4 GigabitEthernet 0/1/1    
 
+
+![image](https://github.com/user-attachments/assets/810b73d1-386e-469f-a25b-1459ea29205c)
+
+![image](https://github.com/user-attachments/assets/8651914c-6bd5-459e-9cce-11ceac1b9782)
+
+![image](https://github.com/user-attachments/assets/780c58d4-3f06-4954-9e48-d935eb77bafe)
+
+
+![image](https://github.com/user-attachments/assets/966f4f86-0529-401b-8553-b9d0ef8ac389)
+
+
+![image](https://github.com/user-attachments/assets/09f8e033-a00d-4856-9249-d23a3dfbf4e2)
 
