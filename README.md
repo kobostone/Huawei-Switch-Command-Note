@@ -30,16 +30,11 @@ Huawei Switch Configuration short note
 [switch1]display vlan 10	   Show all information of vlan 10     
 [switch1]display port vlan	   view types of port and VLAN configuration    
 
-![image](https://github.com/user-attachments/assets/970cefb1-f2f7-4de6-af3c-0412324f42e6)
+
 
 ![image](https://github.com/user-attachments/assets/3779a87a-ff9e-4010-9b2d-c7460b9fbfc4)
 
 
-### View VLAN ⚙️   
-
-- system-view   
-- display vlan
-- 
 ### Assign an access Interface to VLAN ⚙️   
 
 Assign interface GigabitEthernet 0/0/2 to Vlan 10
