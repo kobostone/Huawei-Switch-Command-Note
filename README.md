@@ -111,3 +111,6 @@ display mac-address vlan 4 GigabitEthernet 0/1/1
 
 ![image](https://github.com/user-attachments/assets/09f8e033-a00d-4856-9249-d23a3dfbf4e2)
 
+![image](https://github.com/user-attachments/assets/4c0ff4ab-3d75-460e-8239-809ecd8a4259)
+
+
