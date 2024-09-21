@@ -16,7 +16,6 @@
 ![image](https://github.com/user-attachments/assets/17ea9407-2604-4627-a626-9fa6f7a06570)
 
 
-
   ## Verify VLAN Configuration   
 
 - system-view  
@@ -24,8 +23,6 @@
 [switch1]display vlan	     
 [switch1]display vlan 10	   Show all information of vlan 10     
 [switch1]display port vlan	   view types of port and VLAN configuration
-
-
 
 ### Assign an access Interface to VLAN ⚙️   
 
@@ -52,9 +49,9 @@ Assign interface GigabitEthernet 0/0/4 as a trunk interface and assign to vlan 1
 ![image](https://github.com/user-attachments/assets/140a57e1-cb21-46f5-a6d6-a73f7cd5f69c)
 
 
-## Find out the connected devices to a Huawei switch 
+# Find out the connected devices to a Huawei switch 
 
-# view the LLDP neighbors of the switch. 
+## view the LLDP neighbors of the switch. 
 
 <HUAWEI> system-view     
 [HUAWEI] lldp enable     
@@ -73,15 +70,15 @@ and
  "display interface brief"            
  
 
-## Find out a mac address
+# Find out a mac address
 
-# searching for MAC address "0011-2233-4455":    
+## searching for MAC address "0011-2233-4455":    
 display mac-address 0011-2233-4455     
 
-# Search for MAC addresses on interface GigabitEthernet 0/1/1,    
+## Search for MAC addresses on interface GigabitEthernet 0/1/1,    
 display mac-address GigabitEthernet 0/1/1     
 
-# You can also search for MAC addresses associated with a specific VLAN.    
+## You can also search for MAC addresses associated with a specific VLAN.    
 display mac-address vlan 10    
 display mac-address vlan 4 GigabitEthernet 0/1/1    
 display mac-address static vlan 2
