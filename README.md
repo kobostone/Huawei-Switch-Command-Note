@@ -47,7 +47,7 @@ Assign interface GigabitEthernet 0/0/4 as a trunk interface and assign to vlan 1
 [switch1-GigabitEthernet0/0/4]`port trunk pvid vlan 10`    •	Set default VLAN for trunk interface.
 [switch1-GigabitEthernet0/0/4]quit
 
-![image](https://github.com/user-attachments/assets/437be43d-e9bc-48a3-861d-4e51e4cfb4f5)
+
 
 ![image](https://github.com/user-attachments/assets/140a57e1-cb21-46f5-a6d6-a73f7cd5f69c)
 
