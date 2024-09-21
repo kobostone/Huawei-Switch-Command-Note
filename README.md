@@ -49,7 +49,7 @@ Assign interface GigabitEthernet 0/0/4 as a trunk interface and assign to vlan 1
 ![image](https://github.com/user-attachments/assets/140a57e1-cb21-46f5-a6d6-a73f7cd5f69c)
 
 
-# Find out the connected devices to a Huawei switch 
+# Find out the connected devices to a switch 
 
 ## view the LLDP neighbors of the switch. 
 
