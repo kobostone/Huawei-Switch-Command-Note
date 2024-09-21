@@ -1,9 +1,4 @@
 # Huawei-Switch-Command-Note
-Huawei Switch Configuration short note
-
-
-![image](https://github.com/user-attachments/assets/88840a90-7369-443f-91fc-facde9774d63)
-
 
 
 ### Display Interface Configuration ⚙️
