@@ -54,16 +54,13 @@ Assign interface GigabitEthernet 0/0/4 as a trunk interface and assign to vlan 1
 
 ## Find out the connected devices to a Huawei switch 
 
-#view the LLDP neighbors of the switch. This will show you information about neighboring devices that support the LLDP protocol
+# view the LLDP neighbors of the switch. 
 
+<HUAWEI> system-view
+[HUAWEI] lldp enable
 display lldp neighbor    
 display lldp neighbor brief      
 display lldp neighbor interface XGigabitEthernet 2/2/4   
-
-[HUAWEI] display lldp local interface Gigabitethernet 0/0/1
-Error: The LLDP is not enabled on this port.
-<HUAWEI> system-view
-[HUAWEI] lldp enable
 
 <HUAWEI> system-view
 [HUAWEI] interface gigabitethernet 0/0/1
@@ -75,11 +72,6 @@ and
  "display arp"      
  "display interface brief"    
  
-
- 
- 
-These commands will provide you with information about the MAC addresses, IP addresses, interfaces, and neighboring devices 
-connected to the switch.
 
 ## Find out a mac address
 
