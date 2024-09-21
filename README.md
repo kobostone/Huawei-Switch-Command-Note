@@ -39,7 +39,7 @@ Assign interface GigabitEthernet 0/0/2 to Vlan 10
 
 ### Configuring a trunk interface ⚙️ 
 
-Assign interface GigabitEthernet 0/0/4 as a trunk interface:   
+Assign interface GigabitEthernet 0/0/4 as a trunk interface and assign to vlan 10 and 20   
 
 [switch1]`interface GigabitEthernet 0/0/4`   
 [switch1-GigabitEthernet0/0/4]`port link-type trunk`    
