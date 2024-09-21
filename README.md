@@ -56,21 +56,21 @@ Assign interface GigabitEthernet 0/0/4 as a trunk interface and assign to vlan 1
 
 # view the LLDP neighbors of the switch. 
 
-<HUAWEI> system-view
-[HUAWEI] lldp enable
-display lldp neighbor    
-display lldp neighbor brief      
-display lldp neighbor interface XGigabitEthernet 2/2/4   
+<HUAWEI> system-view     
+[HUAWEI] lldp enable     
+display lldp neighbor        
+display lldp neighbor brief           
+display lldp neighbor interface XGigabitEthernet 2/2/4          
 
-<HUAWEI> system-view
-[HUAWEI] interface gigabitethernet 0/0/1
-[Quidway-GigabitEthernet1/0/1] lldp enable
-Info: The LLDP is enabled on the port successfully.
+<HUAWEI> system-view      
+[HUAWEI] interface gigabitethernet 0/0/1     
+[Quidway-GigabitEthernet1/0/1] lldp enable       
+Info: The LLDP is enabled on the port successfully.       
 
 and     
- "display mac-address"    
- "display arp"      
- "display interface brief"    
+ "display mac-address"           
+ "display arp"             
+ "display interface brief"            
  
 
 ## Find out a mac address
