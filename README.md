@@ -4,7 +4,24 @@
 ### Display Interface Configuration ⚙️
 
 -  <HUAWEI> display ip interface brief     
-   <HUAWEI> display interface brief 
+   <HUAWEI> display interface brief
+
+   
+![image](https://github.com/user-attachments/assets/97882078-bf35-4335-971d-7670b25fbbf0)
+
+
+![image](https://github.com/user-attachments/assets/1193ba10-54da-4f0f-b856-e250230c3024)
+
+![image](https://github.com/user-attachments/assets/002dbe7f-8579-4af1-b3d2-21a8065cc59c)
+
+
+![image](https://github.com/user-attachments/assets/5606ef4a-34bf-4fcd-80a8-2633ed7ca30e)
+
+![image](https://github.com/user-attachments/assets/4ac59aa5-eda3-4860-8692-bbdc6bffe354)
+q
+q
+savez
+
 
 
 ### Giving the switch an IP address
