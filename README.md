@@ -22,9 +22,6 @@ dis this
 ![image](https://github.com/user-attachments/assets/79e9d97a-4f80-45e5-9e5a-a628686f8848)
 
 
-![image](https://github.com/user-attachments/assets/002dbe7f-8579-4af1-b3d2-21a8065cc59c)
-
-
 ![image](https://github.com/user-attachments/assets/5606ef4a-34bf-4fcd-80a8-2633ed7ca30e)
 
 ![image](https://github.com/user-attachments/assets/4ac59aa5-eda3-4860-8692-bbdc6bffe354)    
