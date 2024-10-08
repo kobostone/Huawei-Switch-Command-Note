@@ -17,11 +17,40 @@
 
 ![image](https://github.com/user-attachments/assets/5606ef4a-34bf-4fcd-80a8-2633ed7ca30e)
 
-![image](https://github.com/user-attachments/assets/4ac59aa5-eda3-4860-8692-bbdc6bffe354)
-q
-q
-savez
+![image](https://github.com/user-attachments/assets/4ac59aa5-eda3-4860-8692-bbdc6bffe354)    
+q    
+q    
+save     
 
+*** Sur L3
+ 
+ 
+<HUAWEI> system-view 
+[HUAWEI] ip pool iotpool 
+[HUAWEI-ip-pool-iotpool] static-bind ip-address 10.180.40.151  mac-address 0060-ef3b-2c05
+ 
+ 
+**** ATTRIBUTION INTERFACE VLAN*****
+ 
+MODE ACCES
+ 
+<HUAWEI> system-view
+[HUAWEI] interface GigabitEthernet 0/0/20
+[HUAWEI-GigabitEthernet0/0/20] display this 
+[HUAWEI-GigabitEthernet0/0/20] port link-type access  
+[HUAWEI-GigabitEthernet0/0/20] port default vlan 55   //Add GE0/0/20 to VLAN 55
+[HUAWEI-GigabitEthernet0/0/20] quit (ou q)
+<HUAWEI>q
+<HUAWEI>save 
+ 
+ 
+MODE TRUNK
+ 
+<HUAWEI> system-view
+[HUAWEI] interface GigabitEthernet0/0/20
+[HUAWEI-GigabitEthernet0/0/20] port link-type trunk
+[HUAWEI-GigabitEthernet0/0/20] port trunk allow-pass vlan 10,55 
+[HUAWEI-GigabitEthernet0/0/20] port trunk pvid vlan 55 # transfère des trames non balisées dans le VLAN 55 ![image](https://github.com/user-attachments/assets/c64e4978-c505-4755-a219-da0ca7a4121c)
 
 
 ### Giving the switch an IP address
