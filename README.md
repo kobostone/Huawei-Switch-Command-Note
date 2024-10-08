@@ -3,9 +3,9 @@
 
 ### Display the status of the interfaces ⚙️
 
- <HUAWEI>dis int brief 
- <HUAWEI> display ip interface brief     
- <HUAWEI> display interface brief ou display interface ethernet brief
+ <HUAWEI>dis int brief     
+ <HUAWEI> display ip interface brief        
+ <HUAWEI> display interface brief ou display interface ethernet brief    
 
 ### View the status of an interface.
 
