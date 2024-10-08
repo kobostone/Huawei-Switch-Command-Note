@@ -20,7 +20,39 @@
 ![image](https://github.com/user-attachments/assets/4ac59aa5-eda3-4860-8692-bbdc6bffe354)    
 q    
 q    
-save     
+save   
+
+
+View the status of the interfaces
+
+system-view
+
+<HUAWEI>dis int brief       ou display interface ethernet brief
+quit
+
+View the status of an interface.
+
+system-view
+
+display interface interface GigabitEthernet 1/0/14
+
+
+# Enter the view of GE0/0/1.
+<HUAWEI> system-view
+[HUAWEI] interface gigabitethernet 0/0/1
+
+[HUAWEI-GigabitEthernet0/0/1]
+
+HUAWEI] interface GigabitEthernet 0/0/8        //Assume that the interface connected to the NMS is GigabitEthernet 0/0/8. 
+[HUAWEI-GigabitEthernet0/0/8] port link-type trunk 
+[HUAWEI-GigabitEthernet0/0/8] port trunk allow-pass vlan 5 
+[HUAWEI-GigabitEthernet0/0/8] 
+quit
+
+[ACC1] interface Ethernet 0/0/2 //Configure the interface connecting to PC1. 
+[ACC1-Ethernet0/0/2] port link-type access
+ [ACC1-Ethernet0/0/2] port default vlan 10 
+[ACC1-Ethernet0/0/2] quit
 
 *** Sur L3
  
