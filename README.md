@@ -1,10 +1,17 @@
 # Huawei-Switch-Command-Note
 
 
-### Display Interface Configuration ⚙️
+### Display the status of the interfaces ⚙️
 
--  <HUAWEI> display ip interface brief     
-   <HUAWEI> display interface brief
+ <HUAWEI>dis int brief 
+ <HUAWEI> display ip interface brief     
+ <HUAWEI> display interface brief ou display interface ethernet brief
+
+### View the status of an interface.
+
+system-view
+
+display interface interface GigabitEthernet 1/0/20
 
    
 ![image](https://github.com/user-attachments/assets/97882078-bf35-4335-971d-7670b25fbbf0)
@@ -23,18 +30,7 @@ q
 save   
 
 
-View the status of the interfaces
 
-system-view
-
-<HUAWEI>dis int brief       ou display interface ethernet brief
-quit
-
-View the status of an interface.
-
-system-view
-
-display interface interface GigabitEthernet 1/0/14
 
 
 # Enter the view of GE0/0/1.
