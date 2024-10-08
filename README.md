@@ -5,13 +5,20 @@
 
  <HUAWEI>dis int brief     
  <HUAWEI> display ip interface brief        
- <HUAWEI> display interface brief ou display interface ethernet brief    
+ <HUAWEI> display interface brief ou display interface ethernet brief  
+
+ ![image](https://github.com/user-attachments/assets/6805e86c-0f5c-4c93-83f3-2516dba46d12)
+
 
 ### View the status of an interface.
 
 system-view
 
 display interface interface GigabitEthernet 1/0/20
+
+![image](https://github.com/user-attachments/assets/79e9d97a-4f80-45e5-9e5a-a628686f8848)
+
+
 
    
 ![image](https://github.com/user-attachments/assets/97882078-bf35-4335-971d-7670b25fbbf0)
@@ -33,7 +40,7 @@ save
 
 
 
-# Enter the view of GE0/0/1.
+### Enter the view of GE0/0/1
 <HUAWEI> system-view
 [HUAWEI] interface gigabitethernet 0/0/1
 
