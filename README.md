@@ -12,7 +12,7 @@
 
 ### View the status of an interface.
 
-system-view
+system-view     
 display interface interface GigabitEthernet 1/0/20
 
 system-view     
