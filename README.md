@@ -16,7 +16,7 @@ system-view
 display interface interface GigabitEthernet 1/0/20
 
 system-view     
-interface gigabitethernet 0/0/1
+interface gigabitethernet 0/0/1     
 dis this
 
 ![image](https://github.com/user-attachments/assets/79e9d97a-4f80-45e5-9e5a-a628686f8848)
