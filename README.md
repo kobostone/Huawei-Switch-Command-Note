@@ -50,6 +50,10 @@ quit
  [ACC1-Ethernet0/0/2] port default vlan 10 
 [ACC1-Ethernet0/0/2] quit
 
+![image](https://github.com/user-attachments/assets/f3946a83-e666-4bf7-b3b9-6a8ec41585cb)
+
+![image](https://github.com/user-attachments/assets/c09b4689-c63b-4a93-a530-1f0ffd2436db)
+
 *** Sur L3
  
  
