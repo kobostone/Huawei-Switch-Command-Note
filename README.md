@@ -174,6 +174,31 @@ display mac-address static vlan 2
 
 ![image](https://github.com/user-attachments/assets/09f8e033-a00d-4856-9249-d23a3dfbf4e2)
 
+
+## Pour désactiver un port sur un switch Huawei via la ligne de commande, vous pouvez suivre ces étapes :
+
+<Huawei> system-view
+[Huawei] interface GigabitEthernet 0/0/1
+[Huawei-GigabitEthernet0/0/1] shutdown
+[Huawei] quit
+[Huawei] save
+
+Pour réactiver le port (si nécessaire)
+Si vous souhaitez réactiver le port, retournez dans l'interface et utilisez la commande undo shutdown :
+
+bash
+Copier le code
+[Huawei-GigabitEthernet0/0/1] undo shutdown
+
+
 ![image](https://github.com/user-attachments/assets/4c0ff4ab-3d75-460e-8239-809ecd8a4259)
+
+## Rebooter le switch
+<Huawei> system-view
+[Huawei] save
+[Huawei] quit
+<Huawei> reboot
+Warning: The system will reboot. Continue? [Y/N]: Y
+
 
 
