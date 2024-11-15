@@ -1,10 +1,27 @@
 # Huawei-Switch-Command-Note
 
+Vérifiez les interfaces et leur VLAN :
+
+display vlan    // Cela affichera une liste des VLANs configurés et les interfaces qui y sont associées.
+
 
 ### Display the status of the interfaces ⚙️
 
  <HUAWEI>dis int brief     
- <HUAWEI> display ip interface brief        
+ 
+ ### Afficher l'adresse IP et le masque de sous-réseau des interfaces du switch   
+ 
+<Huawei> display ip interface brief
+*Eth0   192.168.1.1    255.255.255.0    up   up
+Vlanif1 10.0.0.1       255.255.255.0    up   up
+
+
+### Afficher des détails sur une interface spécifique
+ 
+<Huawei> display interface Vlanif1
+
+ 
+ 
  <HUAWEI> display interface brief ou display interface ethernet brief  
 
  ![image](https://github.com/user-attachments/assets/6805e86c-0f5c-4c93-83f3-2516dba46d12)
@@ -39,7 +56,7 @@ save
 
 [HUAWEI-GigabitEthernet0/0/1]
 
-HUAWEI] interface GigabitEthernet 0/0/8        //Assume that the interface connected to the NMS is GigabitEthernet 0/0/8. 
+HUAWEI] interface GigabitEthernet 0/0/8             
 [HUAWEI-GigabitEthernet0/0/8] port link-type trunk 
 [HUAWEI-GigabitEthernet0/0/8] port trunk allow-pass vlan 5 
 [HUAWEI-GigabitEthernet0/0/8] 
@@ -63,17 +80,19 @@ quit
  
  
 **** ATTRIBUTION INTERFACE VLAN*****
- 
-MODE ACCES
- 
-<HUAWEI> system-view
-[HUAWEI] interface GigabitEthernet 0/0/20
-[HUAWEI-GigabitEthernet0/0/20] display this 
-[HUAWEI-GigabitEthernet0/0/20] port link-type access  
-[HUAWEI-GigabitEthernet0/0/20] port default vlan 55   //Add GE0/0/20 to VLAN 55
-[HUAWEI-GigabitEthernet0/0/20] quit (ou q)
-<HUAWEI>q
-<HUAWEI>save 
+
+
+Configurer une interface en mode Access et l'associer à un VLAN :
+
+system-view    
+interface GigabitEthernet1/0/1    
+port link-type access    
+port default vlan 10    
+q
+q
+save
+
+
  
  
 MODE TRUNK
