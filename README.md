@@ -47,6 +47,7 @@ q
 save   
 
 
+![image](https://github.com/user-attachments/assets/1ca0ef02-732d-4873-ae9c-8e44dc8dd173)
 
 
 
@@ -165,7 +166,14 @@ and
  "display mac-address"           
  "display arp"             
  "display interface brief"            
- 
+
+
+
+ ![image](https://github.com/user-attachments/assets/0000eb97-02a1-408e-8363-5f1db3f57060)
+
+ [ACC1] interface eth-trunk 1[ACC1-Eth-Trunk1]    
+ port link-type trunkTrunk for VLAN transparent transmission.[ACC1-Eth-Trunk1]to transparently transmit the service VLAN on ACC1.[ACC1-Eth-Trunk1] mode lacpon Eth-Trunk 1.[ACC1-Eth-Trunk1] quit[ACC1] interface GigabitEthernet 0/0/1Eth-Trunk 1.[ACC1-GigabitEthernet0/0/1] Eth-Trunk 1[ACC1-GigabitEthernet0/0/1] quit[ACC1] interface GigabitEthernet 0/0/2[ACC1-GigabitEthernet0/0/2] Eth-Trunk 1[ACC1-GigabitEthernet0/0/2] quit
+
 
 # Find out a mac address
 
