@@ -177,13 +177,13 @@ and
 
 # Find out a mac address
 
-## searching for MAC address "0011-2233-4455":    
+### searching for MAC address "0011-2233-4455":    
 display mac-address 0011-2233-4455     
 
-## Search for MAC addresses on interface GigabitEthernet 0/1/1,    
+### Search for MAC addresses on interface GigabitEthernet 0/1/1,    
 display mac-address GigabitEthernet 0/1/1     
 
-## You can also search for MAC addresses associated with a specific VLAN.    
+### You can also search for MAC addresses associated with a specific VLAN.    
 display mac-address vlan 10    
 display mac-address vlan 4 GigabitEthernet 0/1/1    
 display mac-address static vlan 2
@@ -202,20 +202,19 @@ display mac-address static vlan 2
 ![image](https://github.com/user-attachments/assets/09f8e033-a00d-4856-9249-d23a3dfbf4e2)
 
 
-## Pour désactiver un port sur un switch Huawei via la ligne de commande, vous pouvez suivre ces étapes :
+## Pour désactiver un port sur un switch :
 
-<Huawei> system-view
-[Huawei] interface GigabitEthernet 0/0/1
-[Huawei-GigabitEthernet0/0/1] shutdown
-[Huawei] quit
-[Huawei] save
+<Huawei> system-view    
+[Huawei] interface GigabitEthernet 0/0/1      
+[Huawei-GigabitEthernet0/0/1] shutdown      
+[Huawei] quit     
+[Huawei] save     
 
 Pour réactiver le port (si nécessaire)
-Si vous souhaitez réactiver le port, retournez dans l'interface et utilisez la commande undo shutdown :
 
-bash
-Copier le code
-[Huawei-GigabitEthernet0/0/1] undo shutdown
+<Huawei> system-view        
+[Huawei] interface GigabitEthernet 0/0/1      
+[Huawei-GigabitEthernet0/0/1] undo shutdown    
 
 
 ![image](https://github.com/user-attachments/assets/4c0ff4ab-3d75-460e-8239-809ecd8a4259)
